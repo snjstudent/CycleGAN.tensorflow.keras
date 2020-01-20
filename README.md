@@ -1,4 +1,2 @@
-# CycleGAN.tensorflow.keras
-
-<h1>Abstract<h1>
+#Abstract
 CycleGANをtensorflow.keras独特のModelとLayerを使い実装。
