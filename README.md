@@ -9,6 +9,7 @@ CycleGAN:https://arxiv.org/abs/1703.10593
 Google colabolatoryで動かす時用のファイル。<br>
 同様のディレクトリをGoogle Drive内に入れることで実行可能。<br>
 ミニバッチ学習を行っており、全体において５stepごとに重み保存。<br>
+tensorflow_addonがインストールできなかったため、そこだけ直接コピペしています。<br>
 Discriminatorの学習速度がGeneratorに比べ早いので、Discriminatorは３回に1回しか学習しないようにしています。
 
 # data_agumentation.py
